@@ -152,7 +152,7 @@ def plot_signals_by_cluster(a_timer: PipelineTimer,
 
         # If you want transparent backgrounds, a different file format, etc. then change these settings accordingly.
         savefig("cluster_" + str(cluster_number) + "." + figure_format,
-                bbox_iches='tight',
+                bbox_inches='tight',
                 pad_inches=0.0,
                 dpi=figure_dpi,
                 format=figure_format,
